@@ -1,3 +1,11 @@
 path: web/wp
 server:
   docroot: web
+
+@staging:
+  ssh: forge@stedskunst-admin.sans.website:/home/forge/stgwww.culturehack.io/public/current
+
+@prod:
+  ssh: forge@stedskunst-admin.sans.website:/home/forge/stedskunst-admin.sans.website/public/current
+
+@dev: ''
