@@ -16,7 +16,7 @@ return [
         'artworks' => [
             'enter_title_here' => 'Enter artwork title',
             'menu_icon' => 'dashicons-book-alt',
-            'supports' => ['title', 'revisions', 'thumbnail'],
+            'supports' => ['title', 'revisions', 'thumbnail', 'page-attributes'],
             'show_in_rest' => true,
             'show_in_graphql' => true,
             'graphql_single_name' => 'artwork',
